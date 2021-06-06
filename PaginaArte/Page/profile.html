@@ -1,0 +1,239 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Perfíl</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/icomoon.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body class="is-preload homepage" onload="loadProfileArtist()">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<header id="header" class="container">
+
+						<!-- Logo -->
+							<div id="logo">
+								<a href="index.html"><img src="images/LogoLekesDark.png" alt="Logo"></a>
+								<span>by Arts Corp. </span>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li >
+										<a href="explore.html">Explorar</a>
+									</li>
+									<li class="current" onclick="goToProfile()"><a>Perfíl</a></li>
+								</ul>
+							</nav>
+
+					</header>
+				</div>
+
+			<!-- Features -->
+	<div id="fh5co-author">
+		<div class="container">
+			<div class="row top-line animate-box">
+				<div class="col-md-6 col-md-offset-3 col-md-push-2 text-left fh5co-heading">
+					<h2>Bio</h2>
+					<h3>Visita mi página <a href="http://www.google.com/" target="_blank"><u>aquí</u></a></h3>
+					<p>Diseños gráficos, impresiones. Preguntas en la página.</p>
+					<button type="submit" class="button" style="color: #fff" onclick="logOut()">Cerrar Sesión</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="author" id="profileSpace">
+						<div class="author-inner animate-box" style="background-image: url(images/manuel.jpg);">
+						</div>
+						<div class="desc animate-box">
+							<span>Artista</span>
+							<h3>Manuel Tans</h3>
+							<p>Soy diseñador gráfico, escultor por pasión, y en cada una de mis obras reflejo el amor y pasión de mi vida. Espero darle color a la tuya.</p>
+							<p>Prints y tarjetas personalizadas, impresos en el tamaño que desee el cliente. Link en la bio.</p>
+							
+							<ul class="fh5co-social-icons">
+								<li><a href="#"><i class="icon-facebook"></i></a></li>
+								<li><a href="#"><i class="icon-twitter"></i></a></li>
+								<li><a href="#"><i class="icon-dribbble"></i></a></li>
+								<li><a href="#"><i class="icon-github"></i></a></li>
+							</ul>
+							<br><button type="submit" class="button" style="color: #fff"><a href=".html" >Crear Post</a></button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<h3 class="title animate-box">Carpetas de Gustos</h3>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<div class="feature-center animate-box" data-animate-effect="fadeIn">
+								<span class="icon">
+									<i class="icon-brush"></i>
+								</span>
+								<h3>Diseño</h3>
+								<p>Mi vida completa</p>
+								<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<div class="feature-center animate-box" data-animate-effect="fadeIn">
+								<span class="icon">
+									<i class="icon-cog"></i>
+								</span>
+								<h3>Escultura</h3>
+								<p>La vida hecha arcilla.</p>
+								<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-sm-6">
+							<div class="feature-center animate-box" data-animate-effect="fadeIn">
+								<span class="icon">
+									<i class="icon-briefcase"></i>
+								</span>
+								<h3>Branding</h3>
+								<p>Logos. Marcas. Mundo.</p>
+								<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<div class="feature-center animate-box" data-animate-effect="fadeIn">
+								<span class="icon">
+									<i class="icon-camera"></i>
+								</span>
+								<h3>Fotografía</h3>
+								<p>Foto, pose, foto. </p>
+								<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
+							</div>
+						</div>
+
+						<div class="col-md-12">
+							<h3 class="title animate-box">Mis Talentos</h3>
+							<div class="row">
+								<div class="col-md-6 animate-box skills">
+									<h3>Diseño</h3>
+									<div class="progress">
+									   <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+									      100%
+									   </div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box skills">
+									<h3>Pintura</h3>
+									<div class="progress">
+									   <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+									      95%
+									   </div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box skills">
+									<h3>Escultura</h3>
+									<div class="progress">
+									   <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+									      80%
+									   </div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box skills">
+									<h3>Maquillaje</h3>
+									<div class="progress">
+									   <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+									      50%
+									   </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+			
+			
+			<!-- Features -->
+				<div id="features-wrapper">
+					<div class="container">
+						<h2 class="title animate-box">Posts</h2>
+						<div class="row" id="postSpace">
+							<div class="col-4 col-12-medium">
+								
+								<!-- Box -->
+									<section class="box feature">
+										<a href="post00.html" class="image featured"><img src="images/00.jpg" alt="" /></a>
+									</section>
+
+							</div>
+		
+						</div>
+					</div>
+				</div>
+			
+			
+			<!-- Footer -->
+				<div id="footer-wrapper">
+					<footer id="footer" class="container">
+						<div class="row">
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Links -->
+									<section class="widget contact last">
+										<h3>Twitter</h3>
+										<ul>
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Links -->
+									<section class="widget contact last">
+										<h3>Facebook</h3>
+										<ul>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Links -->
+									<section class="widget contact last">
+										<h3>Instagram</h3>
+										<ul>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Contact -->
+									<section class="widget contact last">
+										<h3>Pinterest</h3>
+										<ul>
+											<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+									</section>
+
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<div id="copyright">
+									<ul class="menu">
+										<li>&copy; Derechos reservados. </li><li>Diseño: <a href="index.html">Arts Corp.</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+			</div>
+
+		<script src="/js/cliente.js"></script>
+	</body>
+</html>
